@@ -3,9 +3,7 @@
 using namespace std;
 class Student{
     public:
-        virtual void display(){
-            cout<<"I am a student."<<endl;
-        }
+        virtual void display()=0;
 };
 class Engineering:public Student{
     public:
